@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*Exercício: Escreva uma função que encontre o maior número entre três números.
+1.	Crie uma função chamada encontrarMaiorNumero que aceita três parâmetros: num1, num2 e num3.
+2.	Dentro da função, use estruturas condicionais (como if, else if e else) para comparar os números e determinar qual deles é o maior.
+3.	A função deve retornar o maior número encontrado.
+4.	Forneça três números como argumentos para a função.
+5.	Exiba o resultado no console.
+*/
+
+var n1 = parseFloat(prompt('Digite um numero: '))
+var n2 = parseFloat(prompt('Digite outro numero: '))
+var n3 = parseFloat(prompt('Digite mais numero: '))
+
+function encontrarMaiorNumero(n1, n2, n3){
+if(n1 > n2 && n1 > n3){
+    document.write(n1 + ' é o maior numero')
+}
+if(n2 > n1 && n2 > n3){
+    document.write(n2 + ' é o maior numero')
+}
+if(n3 > n1 && n3 > n2){
+    document.write(n3 + '  é o maior numero')
+}
+} 
+document.write(encontrarMaiorNumero(n1, n2, n3))
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>

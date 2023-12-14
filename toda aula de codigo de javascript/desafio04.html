@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var N1 = parseInt(prompt('Digite um numero: '))
+        var N2 = parseInt(prompt('Digite outro numero: '))
+        var num = parseInt(prompt("Escolha a operação matematica; Digite 1 para somar, 2 para subtrair, 3 para multiplicar e 4 para dividir: "))
+        switch(num){
+                case 1:
+                document.write("Você escolheu somar " + N1 +' + ' + N2 + ' = ' + ( N1 + N2))
+                break
+                case 2:
+                document.write("Você escolheu subtrair " + N1 +' - ' + N2 + ' = ' + ( N1 - N2))
+                break
+                case 3:
+                document.write("Você escolheu multiplicar " + N1 +' * ' + N2 + ' = ' + ( N1 * N2))
+                break
+                case 4:
+                document.write("Você escolheu dividir " + N1 +' / ' + N2 + ' = ' + ( N1 / N2))
+                break
+                
+                 default:
+                    document.write("Digite um numero válido porfavor")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

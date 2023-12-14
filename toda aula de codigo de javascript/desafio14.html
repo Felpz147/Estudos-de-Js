@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*Elabore um algoritmo que dada a idade de um nadador
+        classifica-o em uma das seguintes categorias: 
+        infantil A = 5 - 7 anos
+        infantil B = 8 - 10 anos
+        juvenil C = 11 - 13 anos
+        juvenil D = 14 - 17 anos
+        adulto = maiores de 18 anos*/
+         
+        var idade = parseInt(prompt('Digite uma idade: '))
+
+        if(idade < 5 ){
+            document.write(idade + ' Pre-infantil')
+        }else if(idade >= 5 && idade <= 7){
+            document.write(idade + ' Infantil')
+        }else if(idade >= 8 && idade <= 10){
+            document.write(idade + ' Infantil(Pre-Juvenil)')
+        }else if(idade >= 11 && idade <= 13){
+            document.write(idade + ' Juvenil')
+        }else if(idade >= 14 && idade <= 17){
+            document.write(idade + ' Juvenil(Pre-Adulto')
+        }else{
+            document.write(idade + ' Adulto')
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

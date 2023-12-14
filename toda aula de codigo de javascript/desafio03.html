@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var nota1 = parseFloat(prompt('Informe sua primeira nota: '))
+        var nota2 = parseFloat(prompt('Informe sua segunda  nota: '))
+        var nota3 = parseFloat(prompt('Informe sua terceira nota: '))
+        var nota4 = parseFloat(prompt('Informe sua quarta nota: '))
+        
+        var presenca = parseInt(prompt('Informe quantas aulas voce foi de 0 a 16: '))
+        var aulas = (presenca / 16 ) * 100
+        
+        
+        var mediaTT = (nota1 + nota2 + nota3 + nota4) / 4
+
+        if (mediaTT >= 7 && aulas >= 75 ){
+            document.write('Aprovado')
+        }
+        else if(mediaTT < 5 && aulas < 75){
+            document.write('Reprovado')
+        }
+        else if(mediaTT >= 5 && mediaTT <= 6.9 && aulas >=75){
+            document.write('Prova Final')
+        }
+
+        
+    
+       
+        
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

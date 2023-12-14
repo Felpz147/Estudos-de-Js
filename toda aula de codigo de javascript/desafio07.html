@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*Exercício: Escreva uma função que verifica se um número é par ou ímpar.
+1.	Crie uma função chamada verificarParImpar que aceita um parâmetro, que é o número a ser verificado.
+2.	Dentro da função, use uma estrutura condicional (como um if) para determinar se o número é par ou ímpar.
+3.	A função deve retornar uma mensagem indicando se o número é par ou ímpar.
+4.	Forneça um número como argumento para a função.
+5.	Exiba o resultado no console.*/
+
+var num = parseFloat(prompt('Digite um numero: '))
+var ver = 2
+function verificarParImpar(num, ver){
+    resultado = num % ver
+
+    if(num % ver === 0){
+     document.write('Este numero é par ') 
+    }if(num % ver === 1){
+     document.write ('Este numero é impar ')
+}
+    return resultado
+    
+}
+
+document.write("<br>Pois o resto da divisão é " + verificarParImpar(num, ver))
+
+
+
+
+
+
+
+
+    </script> 
+</head>
+<body>
+    
+</body>
+</html>

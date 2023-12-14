@@ -1,0 +1,22 @@
+body{
+    background-color:grey;
+}
+
+
+h3{
+    color:aquamarine
+}
+
+p{
+    font-size: 22px;
+}
+
+strong{
+    border: 2px outset purple;
+}
+img{width: 600px;
+height: 800px;
+}
+div{
+    
+}

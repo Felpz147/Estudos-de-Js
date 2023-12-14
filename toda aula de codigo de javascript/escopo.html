@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //global
+        var serie = "Breaking bad"
+        document.write('Estou exibindo a variável global ' + serie)
+
+        document.write('<br>') 
+
+        //função
+        function assistirSerie(){
+            console.log("Exibida pela função a serie " + serie)
+            document.write('<br>')
+            document.write('Exibindo a variavel de bloco ' + serie2+ 'via função')
+            var serie3 = 'How i met your mother'
+            console.log(serie3 + 'exibida pela função')
+        }
+
+        //bloco
+        if(true){
+            console.log("exibi a variável global " + serie)
+            var serie2 = 'Friends'
+
+            document.write('Exibindo a variável de bloco ' + serie2)
+            
+        }
+        document.write('Exibindo a variável de bloco ' + serie2)
+        console.log(serie3 + 'exibida pelo global')
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
